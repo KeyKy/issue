@@ -1,10 +1,3 @@
-//
-//  video_data_prefetch_layer.cpp
-//  caffeLearn
-//
-//  Created by meitu on 16/9/9.
-//  Copyright © 2016年 meitu. All rights reserved.
-//
 
 #include <opencv2/core/core.hpp>
 

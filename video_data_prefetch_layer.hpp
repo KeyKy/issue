@@ -1,10 +1,4 @@
-//
-//  video_data_prefetch_layer.hpp
-//  caffeLearn
-//
-//  Created by meitu on 16/9/9.
-//  Copyright © 2016年 meitu. All rights reserved.
-//
+
 
 #ifndef CAFFE_VIDEO_DATA_PREFETCH_LAYER_HPP_
 #define CAFFE_VIDEO_DATA_PREFETCH_LAYER_HPP_
