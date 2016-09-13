@@ -7,8 +7,6 @@ void fun(string path){
         while(true){
             cv::Mat frame;
             cap.read(frame);
-            cv::Mat resized_frame;
-            cv::resize(frame, resized_frame, cv::Size(100,100));
             if(frame.empty())
                 break;
             
