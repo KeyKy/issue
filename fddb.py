@@ -128,10 +128,10 @@ class Fddb(Imdb):
             
             cls = self._class_to_ind['face']
 
-            xmin = float(x1) / float(im_width)
-            ymin = float(y1) / float(im_height)
-            xmax = float(x2) / float(im_width)
-            ymax = float(y2) / float(im_height)
+            xmin = float(x1) / float(im_width-1)
+            ymin = float(y1) / float(im_height-1)
+            xmax = float(x2) / float(im_width-1)
+            ymax = float(y2) / float(im_height-1)
 
             boxes[i, :] = [cls, xmin, ymin, xmax, ymax]
         return boxes
